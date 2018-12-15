@@ -1,0 +1,90 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页,
+        {
+            "path" : "pages/signWait/signWait",
+            "style" : {
+                "navigationBarTitleText" : "待签列表"
+            }
+        },
+        {
+            "path" : "pages/login/login",
+            "style" : {
+                "navigationBarTitleText" : "登录"
+            }
+        },
+        {
+            "path" : "pages/email/email",
+            "style" : {
+                "navigationBarTitleText" : "填写邮箱"
+            }
+        },
+        {
+            "path" : "pages/cardUp/cardUp",
+            "style" : {
+                "navigationBarTitleText" : "实名认证"
+            }
+        },
+        {
+            "path" : "pages/signFinish/signFinish",
+            "style" : {
+                "navigationBarTitleText" : "已签列表"
+            }
+        },
+        {
+            "path" : "pages/user/user",
+            "style" : {
+                "navigationBarTitleText" : "我的"
+            }
+        },
+        {
+            "path" : "pages/contract/contract",
+            "style" : {
+                "navigationBarTitleText" : "合同详情"
+            }
+        },
+        {
+            "path" : "pages/success/success",
+            "style" : {
+				"navigationBarTitleText" : "签署成功"
+			}
+        },
+		{
+			"path" : "pages/user/crop",
+			"style" : {
+				"navigationBarTitleText" : "裁剪图片"
+			}
+		}
+		
+    ],
+    "tabBar" : {
+        "color" : "#7d7d7d",
+        "selectedColor" : "#fa5c58",
+        "backgroundColor" : "#ffffff",
+        "list" : [
+            {
+                "pagePath" : "pages/signWait/signWait",
+                "text" : "待签合同",
+                "iconPath" : "static/img/img/sign-wait.png",
+                "selectedIconPath" : "static/img/img/sign-wait_select.png"
+            },
+            {
+                "pagePath" : "pages/signFinish/signFinish",
+                "text" : "已签合同",
+                "iconPath" : "static/img/img/sign-finish.png",
+                "selectedIconPath" : "static/img/img/sign-finish_select.png"
+            },
+            {
+                "pagePath" : "pages/user/user",
+                "text" : "我的",
+                "iconPath" : "static/img/img/person.png",
+                "selectedIconPath" : "static/img/img/person_select.png"
+            }
+        ]
+    },
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarBackgroundColor" : "#fff",
+        "backgroundColor" : "#fbf9fe"
+    }
+}

@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* logo样式 */
+.logo {
+	display: flex;
+	justify-content: center;
+	margin-top: 87upx;
+}
+
+.logo>image {
+	width: 180upx;
+	height: 180upx;
+}
+
+/* 输入框样式 */
+.ipt-content {
+	margin-top: 154upx;
+}
+
+.ipt-group {
+	display: flex;
+	align-items: center;
+	padding: 36upx 0 18upx 0;
+	margin: 0 60upx;
+}
+
+.ipt-group.line-bottom {
+	border-bottom: solid 1upx #9e9e9e;
+	;
+}
+
+.ipt-group .span {
+	font-size: 28upx;
+	color: #999;
+}
+
+.ipt-group input {
+	font-size: 28upx;
+	color: #999;
+	width: 410upx;
+	border: none;
+}
+
+.ipt-group image {
+	width: 20upx;
+	height: 30upx;
+	margin-right: 17upx;
+}
+
+.ipt-group:nth-child(2) image {
+	width: 24upx;
+	height: 29upx;
+}
+
+.ipt-group:nth-child(3) image {
+	width: 18upx;
+	height: 18upx;
+}
+
+/* 提交按钮样式 */
+.btn-content {
+	text-align: center;
+	margin-top: 118upx;
+}
+
+/* 按钮样式 */
+.btn {
+	display: inline-block;
+	width: 630upx;
+	height: 90upx;
+	line-height: 90upx;
+	border-radius: 45upx;
+	font-size: 36upx;
+	color: #fff;
+}
+
+.btn-small {
+	width: 160upx;
+	height: 60upx;
+	line-height: 60upx;
+	font-size: 34upx;
+}
+
+.btn-default {
+	background-color: #6a6a6a;
+}
+
+.btn-primary {
+	background-color: #4abe3b;
+}
+
+.btn-danger {
+	background-color: #fa5c58;
+}
+
+/* flex布局 */
+.flex-box {
+	display: flex;
+}
+
+.flex-row_space-between {
+	justify-content: space-between
+}
+.flex-row_center{
+	justify-content: center;
+}
+
+.flex-ver_center {
+	align-items: center;
+}
